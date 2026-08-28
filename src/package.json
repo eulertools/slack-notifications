@@ -1,0 +1,14 @@
+{
+  "name": "SlackNotifications",
+  "version": "1.0.0",
+  "description": "version",
+  "main": "main.js",
+  "scripts": {
+    "cdk": "cdk synth"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "slack-notifications",
+  "version": "0.1.0",
+  "bin": {
+    "slack-notifications": "bin/slack-notifications.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.106.0",
+    "aws-cdk": "1.106.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "1.106.0",
+    "@aws-cdk/aws-lambda-event-sources": "1.106.0",
+    "@aws-cdk/aws-sns": "1.106.0",
+    "@aws-cdk/core": "1.106.0"
+  }
+}
